@@ -31,7 +31,7 @@ SOCAT_PID="$WSREP_SST_OPT_DATA/$MODULE-socat.pid"
 RSYNC_PID="$WSREP_SST_OPT_DATA/$MODULE-rsync.pid"
 
 # Some socat-specific variables.
-SOCAT_SSL_DIR=/etc/percona/ssl
+SOCAT_SSL_DIR=/etc/mysql/ssl
 
 # Some rsync-specific variables.
 RSYNC_CONF="$WSREP_SST_OPT_DATA/$MODULE.conf"
